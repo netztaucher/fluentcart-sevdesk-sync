@@ -1,0 +1,58 @@
+{
+    "name": "itsmind/sevdesk-php-sdk",
+    "type": "library",
+    "description": "The only unofficial SDK that's always in sync with the official sevDesk API. Powered by j-mastr/sevdesk-api and the OpenAPI Generator.",
+    "keywords": [
+        "php",
+        "sdk",
+        "rest",
+        "api",
+        "sevdesk",
+        "accounting"
+    ],
+    "homepage": "https://api.sevdesk.de/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "OpenAPI-Generator contributors",
+            "homepage": "https://openapi-generator.tech"
+        },
+        {
+            "name": "sevDesk",
+            "homepage": "https://sevdesk.de/"
+        },
+        {
+            "name": "it's mind",
+            "homepage": "https://itsmind.com/"
+        },
+        {
+            "name": "Janik Stracke",
+            "homepage": "https://github.com/j-mastr"
+        }
+    ],
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "guzzlehttp/guzzle": "^7.3",
+        "guzzlehttp/psr7": "^1.7 || ^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0 || ^9.0",
+        "friendsofphp/php-cs-fixer": "^3.5"
+    },
+    "replace": {
+        "itsmind/sevdesk-php-client": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Itsmind\\Sevdesk\\": "lib/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Itsmind\\Sevdesk\\Test\\": "test/"
+        }
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "require": {
+        "itsmind/sevdesk-php-sdk": "^1.7",
+        "guzzlehttp/guzzle": "^7.10"
+    }
+}
