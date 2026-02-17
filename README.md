@@ -33,6 +33,10 @@ Synchronisiert Bestellungen aus dem **FluentCart**‑Plugin automatisch nach sev
 - Country Lookup cacht StaticCountry per ISO‑Code, Fallback DE.
 - API‑Calls via itsmind/sevdesk-php-sdk; HTTP Fallbacks direkt per Guzzle.
 
+## Danksagung / Third‑Party
+- [itsmind/sevdesk-php-sdk](https://github.com/itsmind/sevdesk-php-sdk) (MIT) – offizielle PHP‑Client‑Bibliothek, gebundled im Ordner `vendor/itsmind`.
+- [guzzlehttp/guzzle](https://github.com/guzzle/guzzle) – HTTP Client.
+
 ## Bekannte Einschränkungen
 - Kein UI zur Eingabe des API‑Keys; Anpassung im Aufrufer nötig.
 - Unterstützt derzeit nur Standard‑TaxRule (1) und Rechnungsentwürfe.
