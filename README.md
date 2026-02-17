@@ -1,6 +1,6 @@
 # FluentCart → sevDesk Sync
 
-Synchronisiert FluentCart‑Bestellungen aus WordPress automatisch nach sevDesk: legt Kontakte mit Adressen/Kommunikationswegen an und erstellt Rechnungsentwürfe inklusive Positionen.
+Synchronisiert Bestellungen aus dem **FluentCart**‑Plugin automatisch nach sevDesk: legt Kontakte mit Adressen/Kommunikationswegen an und erstellt Rechnungsentwürfe inklusive Positionen.
 
 ## Features
 - Kontakt‑Upsert per E‑Mail oder vorhandener Rechnungsreferenz, inkl. Kundennummer, Zahlungsziel, Adresse, E‑Mail/Telefon.
@@ -8,7 +8,7 @@ Synchronisiert FluentCart‑Bestellungen aus WordPress automatisch nach sevDesk:
 - Idempotenz via `_sevdesk_invoice_id` Post‑Meta, erneutes Senden löscht keine Rechnungen.
 
 ## Voraussetzungen
-- WordPress mit FluentCart.
+- WordPress mit dem FluentCart‑Plugin.
 - sevDesk API‑Token (32‑stelliger Hex‑String) eines Admin‑Nutzers.
 - PHP 8.1+, Composer‑Dependencies im Ordner `vendor/` (bereits enthalten).
 
